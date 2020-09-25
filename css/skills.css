@@ -1,0 +1,99 @@
+.skills {
+  margin-top: 100px; }
+
+.progresses {
+  background-color: #f8f9f9;
+  background-image: url("../img/skillsBG.jpg");
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 160px 0;
+  margin: 0; }
+
+.progresses__wrapper {
+  margin-left: 100px; }
+
+.progresses__title {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: bold; }
+
+.pro__title {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 10px; }
+  .pro__title span {
+    margin-left: 10px; }
+
+.pro__ui .progressBar {
+  width: 30%;
+  height: 5px;
+  border-radius: 0;
+  background: linear-gradient(90deg, #10c9c3 0%, #10c9c3 75%, #d8d8d8 75%); }
+
+.pro__web .progressBar {
+  width: 30%;
+  height: 5px;
+  border-radius: 0;
+  background: linear-gradient(90deg, #10c9c3 0%, #10c9c3 90%, #d8d8d8 90%); }
+
+.pro__marketing .progressBar {
+  width: 30%;
+  height: 5px;
+  border-radius: 0;
+  background: linear-gradient(90deg, #10c9c3 0%, #10c9c3 65%, #d8d8d8 65%); }
+
+.features {
+  background-color: #10c9c3;
+  padding: 100px 0; }
+
+.features__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  color: #ffffff; }
+
+.feature__title {
+  margin: 0;
+  font-size: 18px; }
+
+.feature__text {
+  font-size: 12px;
+  text-transform: uppercase; }
+
+.feature-project::before {
+  content: "";
+  position: relative;
+  right: 100px;
+  top: 30px;
+  background: url("../img/skills/skill-1.png") no-repeat center;
+  padding: 50px; }
+
+.feature-time::before {
+  content: "";
+  position: relative;
+  right: 100px;
+  top: 30px;
+  background: url("../img/skills/skill-2.png") no-repeat center;
+  padding: 50px; }
+
+.feature-positive::before {
+  content: "";
+  position: relative;
+  right: 100px;
+  top: 30px;
+  background: url("../img/skills/skill-3.png") no-repeat center;
+  padding: 50px; }
+
+.feature-happy::before {
+  content: "";
+  position: relative;
+  right: 100px;
+  top: 30px;
+  background: url("../img/skills/skill-4.png") no-repeat center;
+  padding: 50px; }

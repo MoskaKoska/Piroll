@@ -1,0 +1,29 @@
+.preview {
+  background: #ffffff url("../img/previewBG.jpg") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 170px;
+  padding-bottom: 200px; }
+
+.preview__title {
+  font-size: 38px;
+  font-weight: bold; }
+
+.preview__text {
+  font-size: 18px;
+  color: #787878;
+  font-family: 'Nunito Sans', sans-serif;
+  line-height: 28px;
+  width: 40%;
+  margin-bottom: 40px; }
+
+.btn {
+  padding: 20px 40px;
+  background-color: #10c9c3;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 12px; }
+  .btn:hover {
+    background-color: #0ab7b1; }
+  .btn:active {
+    background-color: rgba(16, 201, 195, 0.7); }

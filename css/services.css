@@ -1,0 +1,117 @@
+.services {
+  margin-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f5f5f5; }
+
+.service {
+  margin-top: 170px; }
+
+.services__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.service__title {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold; }
+
+.service__text {
+  font-size: 16px;
+  color: #787878;
+  font-family: 'Nunito Sans', sans-serif;
+  line-height: 28px;
+  width: 60%;
+  text-align: center;
+  display: flex;
+  margin: 0 auto; }
+
+.service-ui::before {
+  content: "";
+  background-image: url("../img/features/feature-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  padding: 50px;
+  position: relative;
+  bottom: 50px;
+  left: 140px; }
+
+.service-web::before {
+  content: "";
+  background-image: url("../img/features/feature-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  padding: 50px;
+  position: relative;
+  bottom: 50px;
+  left: 130px; }
+
+.service-app::before {
+  content: "";
+  background-image: url("../img/features/feature-3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 55%;
+  padding: 50px;
+  position: relative;
+  bottom: 50px;
+  left: 140px; }
+
+.service-game::before {
+  content: "";
+  background-image: url("../img/features/feature-4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  padding: 50px;
+  position: relative;
+  bottom: 50px;
+  left: 140px; }
+
+.service-seo::before {
+  content: "";
+  background-image: url("../img/features/feature-5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  padding: 50px;
+  position: relative;
+  bottom: 50px;
+  left: 120px; }
+
+.service-photo::before {
+  content: "";
+  background-image: url("../img/features/feature-6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  padding: 50px;
+  position: relative;
+  bottom: 50px;
+  left: 140px; }
+
+.service-design::before {
+  content: "";
+  background-image: url("../img/features/feature-7.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  padding: 50px;
+  position: relative;
+  bottom: 50px;
+  left: 130px; }
+
+.service-illustration::before {
+  content: "";
+  background-image: url("../img/features/feature-8.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  padding: 50px;
+  position: relative;
+  bottom: 50px;
+  left: 140px; }

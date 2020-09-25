@@ -1,0 +1,7 @@
+.clients {
+  margin: 70px 0; }
+
+.clients__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around; }

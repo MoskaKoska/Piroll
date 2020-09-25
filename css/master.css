@@ -1,0 +1,43 @@
+@import url("header.css");
+@import url("preview.css");
+@import url("about.css");
+@import url("skills.css");
+@import url("work.css");
+@import url("process.css");
+@import url("services.css");
+@import url("slider.css");
+@import url("clients.css");
+@import url("feedback.css");
+@import url("footer.css");
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url("fonts/Montserrat-Bold.ttf, fonts/Montserrat-Regular.ttf"); }
+
+@font-face {
+  font-family: 'Nunito Sans', sans-serif;
+  src: url("NunitoSans-Regular.ttf"); }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0; }
+
+a {
+  color: #000000;
+  text-decoration: none; }
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.wrapper {
+  margin: 0 10%; }

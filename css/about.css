@@ -1,0 +1,22 @@
+.about {
+  margin-top: 100px; }
+
+.about__title {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 30px; }
+
+.about__text {
+  font-size: 18px;
+  color: #787878;
+  font-family: 'Nunito Sans', sans-serif;
+  line-height: 28px;
+  width: 61%;
+  text-align: center;
+  display: flex;
+  margin: 0 auto; }
+
+.about__image {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px; }

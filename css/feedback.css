@@ -1,0 +1,46 @@
+.feedback {
+  background-color: #f5f5f5;
+  padding: 105px 0; }
+
+.feedback__title {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 30px; }
+
+.feedback__text {
+  font-size: 18px;
+  color: #787878;
+  font-family: 'Nunito Sans', sans-serif;
+  line-height: 28px;
+  width: 56%;
+  text-align: center;
+  display: flex;
+  margin: 40px auto; }
+
+.feedback__form {
+  text-align: center; }
+
+.form__input {
+  outline: none;
+  border: none;
+  min-height: 30px;
+  width: 255px; }
+
+.form__input[placeholder], .form__area[placeholder] {
+  font-size: 14px;
+  color: #787878;
+  font-family: 'Nunito Sans', sans-serif; }
+
+.form__input-margin {
+  margin-left: 60px; }
+
+.form__input-title {
+  width: 580px; }
+
+.form__area {
+  outline: none;
+  border: none; }
+
+.form-btn {
+  outline: none;
+  border: none; }

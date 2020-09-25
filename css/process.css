@@ -1,0 +1,23 @@
+.process {
+  margin-top: 100px; }
+
+.process h2 {
+  text-align: center;
+  font-size: 30px;
+  text-transform: capitalize; }
+
+.process p {
+  font-size: 16px;
+  color: #787878;
+  font-family: 'Nunito Sans', sans-serif;
+  line-height: 28px;
+  width: 55%;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 45px; }
+
+video {
+  margin-top: 60px;
+  border: none;
+  outline: none; }
